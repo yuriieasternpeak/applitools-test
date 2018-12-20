@@ -1,0 +1,79 @@
+[16:50:48]  COMMAND	POST 	 "/wd/hub/session"
+[16:50:48]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"maxInstances":1,"automationName":"uiautomator2","browserName":"","autoGrantPermissions":true,"platformName":"Android","platformVersion":"7.1","_":"3 more keys: [\"deviceName\",\"app\",\"requestOrigins\"]"}}
+[16:51:12]  INFO	SET SESSION ID ead1e882-e44f-47c0-b0fb-46ac0ee2ff81
+[16:51:12]  RESULT		{"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":true,"war ... (1226 more bytes)
+[16:51:12]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/execute"
+[16:51:12]  DATA		{"script":"return navigator.userAgent","args":[]}
+[16:51:12]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/execute/sync"
+[16:51:12]  DATA		{"script":"return navigator.userAgent","args":[]}
+[16:51:12]  COMMAND	GET 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/screenshot"
+[16:51:12]  DATA		{}
+[16:51:12]  RESULT		"iVBORw0KGgoAAAANSUhEUgAAAyAAAAUACAIAAAAwbqEzAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnO3dXY+V5cGw4cUAA6IUcaA4g0VRBD+gKqCNpLHa1rrR2jZtmjTpvv/AP+Nm02jSdKfRtqmprTYN\nWpX4Wa2YyODXVDsoMigwILwbK8+8BHRAOLXPU49ja63 ... (11820 more bytes)
+[16:51:12]  	Saved screenshot: ERROR_androiddevice7_1.android.7_1.test_apk_2018-12-20T15-51-12.665Z.png
+[16:51:12]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:12]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:13]  RESULT		[]
+[16:51:13]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:13]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:13]  RESULT		[]
+[16:51:13]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:13]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:14]  RESULT		[]
+[16:51:14]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:14]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:14]  RESULT		[]
+[16:51:14]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:14]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:15]  RESULT		[]
+[16:51:15]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:15]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:15]  RESULT		[]
+[16:51:15]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:15]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:16]  RESULT		[]
+[16:51:16]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:16]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:16]  RESULT		[]
+[16:51:16]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:16]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:17]  RESULT		[]
+[16:51:17]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:17]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:17]  RESULT		[]
+[16:51:17]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:17]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:18]  RESULT		[]
+[16:51:18]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:18]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:18]  RESULT		[]
+[16:51:18]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:18]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:19]  RESULT		[]
+[16:51:19]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:19]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:19]  RESULT		[]
+[16:51:19]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:19]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:20]  RESULT		[]
+[16:51:20]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:20]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:20]  RESULT		[]
+[16:51:20]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:20]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:21]  RESULT		[]
+[16:51:21]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:21]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:21]  RESULT		[]
+[16:51:21]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:21]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:22]  RESULT		[]
+[16:51:22]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:22]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:22]  RESULT		[]
+[16:51:22]  COMMAND	POST 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/elements"
+[16:51:22]  DATA		{"using":"accessibility id","value":"MainScreen"}
+[16:51:22]  COMMAND	GET 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81/screenshot"
+[16:51:22]  DATA		{}
+[16:51:23]  COMMAND	DELETE 	 "/wd/hub/session/ead1e882-e44f-47c0-b0fb-46ac0ee2ff81"
+[16:51:23]  DATA		{}
+[16:51:23]  	Failed to take screenshot on reject: 	 {"message":"An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up","type":"RuntimeError","seleniumStack":{"type":"UnknownError","message":"An unknown server-side error occurred while processing the command.","orgStatusMessage":"An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up"}}

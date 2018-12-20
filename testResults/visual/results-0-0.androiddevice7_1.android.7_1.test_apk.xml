@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="The_Main_Page" timestamp="2018-12-20T16:54:19" time="3.314" tests="1" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="ceaa96f4fdbeb059e639a56601f827dd"/>
+      <property name="suiteName" value="The Main Page"/>
+      <property name="capabilities" value="androiddevice7_1.android.7_1.test_apk"/>
+      <property name="file" value="./e2e-test/visual-tests/dashboard-test.js"/>
+    </properties>
+    <testcase classname="androiddevice7_1.android.7_1.test_apk.The_Main_Page" name="should_be_able_to_be_compared_with_applitools" time="3.018">
+      <error message="Failed: This class does not implement methods!"/>
+      <system-err>
+        <![CDATA[
+    at <Jasmine>
+    at UserContext.it (/media/SSD/repositories/applitools-test/e2e-test/visual-tests/dashboard-test.js:29:14)
+    at <Jasmine>
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

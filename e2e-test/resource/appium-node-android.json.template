@@ -1,0 +1,45 @@
+{
+    "capabilities": [
+    {
+        "browserName": "Italia",
+        "maxInstances": 1,
+        "platform":"Android",
+        "version": "6.0.1",
+        "deviceName" : "Italia 6.0"
+    },
+    {
+        "browserName": "Italia",
+        "maxInstances": 1,
+        "platform":"Android",
+        "version": "4.3",
+        "deviceName" : "Android 4.3"
+    },
+    {
+        "browserName": "Galaxy",
+        "maxInstances": 1,
+        "platform":"Android",
+        "version": "8.0.0",
+        "deviceName" : "ce0917196440b43e0c"
+    },
+    {
+        "browserName": "",
+        "maxInstances": 1,
+        "platform":"Android",
+        "version": "6.0",
+        "deviceName" : "H8WDU15928008761"
+    }],
+    "configuration": 
+    {
+        "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+        "maxSession": 2,
+        "url": "http://<IP_ADDR>:4723/wd/hub",
+        "host": "<IP_ADDR>",
+        "port": 4723,
+        "register": true,
+        "registerCycle": 5000,
+        "hubPort": 4444,  
+        "role": "node",
+        "hubHost" : "<IP_ADDR>",
+        "nodeStatusCheckTimeout": 5000
+    }
+}

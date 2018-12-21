@@ -1,9 +1,9 @@
 const appBinaryServer = require('./e2e-test/helpers/test-binary-server')
-// const { Eyes } = require('@applitools/eyes.webdriverio')
-// const { ConsoleLogHandler } = require('@applitools/eyes.sdk.core')
-// const eyes = new Eyes()
-// eyes.setApiKey('zF57W2RzYwIk109T58mkH3TzY7BRrWMLbaPJbuyIpieho110')
-// eyes.setLogHandler(new ConsoleLogHandler(true))
+const { Eyes } = require('@applitools/eyes.webdriverio')
+const { ConsoleLogHandler } = require('@applitools/eyes.sdk.core')
+const eyes = new Eyes()
+eyes.setApiKey('zF57W2RzYwIk109T58mkH3TzY7BRrWMLbaPJbuyIpieho110')
+eyes.setLogHandler(new ConsoleLogHandler(true))
 
 const hostIp = `${process.env.HOST_IP}` ? `${process.env.HOST_IP}` : 'localhost'
 
@@ -200,11 +200,11 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
-    // before: function (capabilities, specs) {
-    //     global.browser.addCommand('checkWindow', (title) => {
-    //         return eyes.checkWindow(title)
-    //     })
-    // },
+    before: function (capabilities, specs) {
+        global.browser.addCommand('checkWindow', (title) => {
+            return eyes.checkWindow(title)
+        })
+    },
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {String} commandName hook command name
@@ -223,9 +223,9 @@ exports.config = {
      * Function to be executed before a test (in Mocha/Jasmine) or a step (in Cucumber) starts.
      * @param {Object} test test details
      */
-    // beforeTest: function (test) {
-    //     global.browser.call(() => eyes.open(global.browser, 'Dashboard', 'PRO App'))
-    // },
+    beforeTest: function (test) {
+        global.browser.call(() => eyes.open(global.browser, 'Dashboard', 'PRO App'))
+    },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
      * beforeEach in Mocha)

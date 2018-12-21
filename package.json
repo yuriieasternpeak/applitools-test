@@ -14,9 +14,10 @@
     "react-native": "0.57.5"
   },
   "devDependencies": {
-    "@applitools/eyes.webdriverio": "^2.0.0",
+    "@applitools/eyes.webdriverio": "^1.2.1",
     "appium": "^1.11.0-beta.2",
     "babel-jest": "23.6.0",
+    "eyes.selenium": "^0.0.83",
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.49.1",
     "react-test-renderer": "16.6.1",

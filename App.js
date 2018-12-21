@@ -8,16 +8,16 @@
 
 import React, {Component} from 'react'
 import { StyleSheet, Text, View, Button } from 'react-native'
-import ToastExample from './NativeModules'
+// import ToastExample from './NativeModules'
 
-const crashNative = () => {
-    ToastExample.show()
-}
+// const crashNative = () => {
+//     ToastExample.show()
+// }
 
-const crashJS = () => {
-  const array = [undefined]
-  const i = array[0].bla
-}
+// const crashJS = () => {
+//   const array = [undefined]
+//   const i = array[0].bla
+// }
 
 export default class App extends Component {
   render() {
@@ -25,8 +25,7 @@ export default class App extends Component {
       <View testID="MainScreen" accessibilityLabel="MainScreen" accessible={true} style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Button title="Crash me Native!" onPress={crashNative} />
-        <Button title="Crash me JS!" onPress={crashJS} />
+        <Button title="This is a button" />
       </View>
     );
   }

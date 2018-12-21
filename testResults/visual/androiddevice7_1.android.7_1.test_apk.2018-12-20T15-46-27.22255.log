@@ -1,2 +1,0 @@
-[16:46:27]  COMMAND	POST 	 "/wd/hub/session"
-[16:46:27]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"maxInstances":1,"automationName":"uiautomator2","browserName":"","autoGrantPermissions":true,"platformName":"Android","platformVersion":"7.1","_":"3 more keys: [\"deviceName\",\"app\",\"requestOrigins\"]"}}

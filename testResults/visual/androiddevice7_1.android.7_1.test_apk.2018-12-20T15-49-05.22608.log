@@ -1,6 +1,0 @@
-[16:49:05]  COMMAND	POST 	 "/wd/hub/session"
-[16:49:05]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"maxInstances":1,"automationName":"uiautomator2","browserName":"","autoGrantPermissions":true,"platformName":"Android","platformVersion":"7.1","_":"3 more keys: [\"deviceName\",\"app\",\"requestOrigins\"]"}}
-[16:49:43]  INFO	SET SESSION ID 3a677da7-514a-40f6-8967-86901425aae5
-[16:49:43]  RESULT		{"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":true,"war ... (1226 more bytes)
-[16:49:43]  COMMAND	DELETE 	 "/wd/hub/session/3a677da7-514a-40f6-8967-86901425aae5"
-[16:49:43]  DATA		{}
